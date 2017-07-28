@@ -1,4 +1,4 @@
-## react-resize-body
+## react-resize-width
 
 <p>Be notified when the value of the document.body changes efficiently with one event listener</p>
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ npm install react-resize-body --save
+$ npm install react-resize-width --save
 ```
 
 ## Usage
