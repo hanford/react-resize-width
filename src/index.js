@@ -20,10 +20,14 @@ export default class Resize extends PureComponent {
 
   recordPosition = event => {
     const { onResize } = this.props
-    const bodyWidth = document.body.offsetWidth
+    const { parentElement } = this.props
 
-    onResize(bodyWidth, event)
-    this.setState({ width: bodyWidth })
+    const element = parentElement || document.body
+
+    const width = element.offsetWidth
+
+    onResize(width, event)
+    this.setState({ width: width })
   }
 
   render () {

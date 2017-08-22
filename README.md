@@ -28,5 +28,6 @@ render () {
 | Param          | Type    | args | required |
 |----------------|---------|-----------------|-----------------|
 | onResize           | Function | value, event | true |
+| parentElement           | ref | null | false |
 
 MIT © [Jack Hanford](http://jackhanford.com)
