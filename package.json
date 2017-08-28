@@ -1,6 +1,6 @@
 {
   "name": "react-resize-width",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Notify HOC in react when a resize on the body happens",
   "main": "./dist/react-resize-width.min.js",
   "repository": {
