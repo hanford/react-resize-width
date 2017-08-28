@@ -10,7 +10,8 @@
   "homepage": "https://github.com/hanford/react-resize-width",
   "bugs": "https://github.com/hanford/react-resize-width/issues",
   "scripts": {
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "prepare": "npm run build"
   },
   "authors": [
     "Jack Hanford"
